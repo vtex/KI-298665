@@ -23,5 +23,6 @@ export async function policy(ctx: Context) {
     } catch (error) {
         console.log("Error:")
         console.error(error)
+        ctx.body
     }
 }
