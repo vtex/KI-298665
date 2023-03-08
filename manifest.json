@@ -1,7 +1,7 @@
 {
   "name": "ki-298665",
   "vendor": "vtex",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "title": "KI 298665",
   "description": "App fixing issue presented in KI 298665",
   "mustUpdateAt": "2018-01-04",
