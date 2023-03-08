@@ -1,9 +1,9 @@
 {
-  "name": "service-example",
+  "name": "ki-298665",
   "vendor": "vtex",
-  "version": "0.2.21",
-  "title": "Service Example",
-  "description": "Reference app for VTEX IO Services",
+  "version": "1.0.0",
+  "title": "KI 298665",
+  "description": "App fixing issue presented in KI 298665",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
   "dependencies": {},
@@ -28,6 +28,47 @@
     },
     {
       "name": "colossus-write-logs"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/*"
+      }
+    },
+    {
+      "name": "Get_Account_By_Identifier"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/api/logistics/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.myvtex.com",
+        "path": "/api/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "/api/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "logistics.vtexcommercestable.com.br",
+        "path": "/api/logistics/pvt/*"
+      }
+    },
+    {
+      "name": "LogisticsAdmin"
     }
   ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

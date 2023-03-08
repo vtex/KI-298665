@@ -9,6 +9,10 @@
     "status": {
       "path": "/_v/status/:code",
       "public": true
+    },
+    "policy": {
+      "path": "/_v/shipping-policy",
+      "public": true
     }
   }
 }
